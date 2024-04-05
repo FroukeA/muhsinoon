@@ -129,7 +129,7 @@ function renderFormItems(props, array) {
 export default function Form(props) {
   return (
     <form className={"form " + props.class} id={""} onSubmit={props.function__submit}>
-      {/* { renderFormFields(props)} */}
+      {renderFormFields(props)}
 
       <Button
         disabled={props.form_submitButtonDisabled}

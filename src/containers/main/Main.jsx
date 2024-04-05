@@ -53,7 +53,9 @@ export default function Main(props) {
           </header>
 
           {props.content.parts.map((item, i) => {
-            if (item.id === "sldshwL") { return props.createElement(item, i) };
+            if (item.id === "sldshwL") { return props.createElement(item, i) } else {
+              return ''
+            };
           })}
         </section>
 
@@ -81,7 +83,9 @@ export default function Main(props) {
                   </header>
 
                   {props.content.parts.map((item, i) => {
-                    if (item.id === "schdlL_1") { return props.createElement(item, i) };
+                    if (item.id === "schdlL_1") { return props.createElement(item, i) } else {
+                      return ''
+                    };
                   })}
                 </article>
               </li>
@@ -128,7 +132,9 @@ export default function Main(props) {
             </header>
 
             {props.content.parts.map((item, i) => {
-              if (item.id === "eventsL") { return props.createElement(item, i) };
+              if (item.id === "eventsL") { return props.createElement(item, i) } else {
+                return ''
+              };
             })}
           </article>
         </section>

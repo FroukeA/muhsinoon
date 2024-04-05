@@ -1,6 +1,7 @@
 // data
-import React, { useState } from "react";
-import logo from '../../assets/static/png/logo/logoSloganSame.png';
+import React from "react";
+// { useState } if need put beside React
+// import logo from '../../assets/static/png/logo/logoSloganSame.png';
 import {
   header__content,
   main__content
