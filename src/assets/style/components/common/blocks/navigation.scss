@@ -1,0 +1,40 @@
+/* *** LAYOUT *** */
+.nav__list {
+  @include row;
+  @include between_center;
+
+  padding-top: 1rem;
+  padding-right: 2rem;
+}
+
+.navLi_1__link--home>span {
+  @include hide;
+}
+
+/* *** MODULE *** */
+.navL_1__listItem--link>a {
+  @include link_design;
+}
+
+.navL_1__listItem--link>a {
+  transition: color 300ms ease-in;
+}
+
+
+.navLi_1__link--home {
+  display: block;
+  background: left / cover no-repeat url("../../../../static/png/logo/logoSloganSameHorizonNoBG.png");
+
+  width: 19rem;
+  height: 10rem;
+}
+
+/* *** STATE *** */
+
+.navL_1__listItem--link>a:hover {
+  color: $secundairy-color3;
+}
+
+/* *** KEYFRAME *** */
+
+/* *** MEDIAQUERY *** */

@@ -1,0 +1,23 @@
+/* *** LAYOUT *** */
+.event__list {
+  @include row--noWrap;
+  @include between_start;
+
+  overflow: scroll;
+}
+
+/* *** MODULE *** */
+.eventsL__listItem {
+  width: 30rem;
+}
+
+.eArt_1__img {
+  width: 100%;
+  height: auto;
+}
+
+/* *** STATE *** */
+
+/* *** KEYFRAME *** */
+
+/* *** MEDIAQUERY *** */

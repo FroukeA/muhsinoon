@@ -1,0 +1,25 @@
+{
+  "short_name": "Muhsinoon",
+  "name": "Muhsinoon 'home of the Little Muslim Seekers'",
+  "icons": [
+    {
+      "src": "/assets/static/png/logoSloganSameNoText.png",
+      "sizes": "",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/static/png/logoSloganSameNoText.png",
+      "type": "image/png",
+      "sizes": ""
+    },
+    {
+      "src": "/assets/static/png/logoSloganSameNoText.png",
+      "type": "image/png",
+      "sizes": ""
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

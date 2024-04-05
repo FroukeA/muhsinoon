@@ -1,0 +1,56 @@
+@import "./import.scss";
+
+/* *** LAYOUT *** */
+.hide {
+  @include hide;
+}
+
+.main {
+  margin-top: 10rem;
+}
+
+.section--main {
+  @include standPadd;
+}
+
+/* *** MODULE *** */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Boho-Lifestyle';
+  font-size: 4rem;
+
+  color: $primary-color1;
+}
+
+.tittle--bigger {
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: $primary-size1;
+
+  ::before {
+    content: '~';
+  }
+}
+
+.tittle--bigger::before,
+.tittle--bigger::after {
+  content: '~';
+}
+
+.text {
+  width: 50vw;
+
+  padding: 3rem 0;
+}
+
+/* *** STATE *** */
+
+/* *** KEYFRAME *** */
+
+/* *** MEDIAQUERY *** */

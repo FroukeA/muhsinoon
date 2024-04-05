@@ -1,0 +1,72 @@
+@mixin hide {
+  display: none;
+}
+
+@mixin column {
+  display: flex;
+  flex-flow: column;
+}
+
+@mixin row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@mixin row--noWrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+@mixin between_center {
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin between_start {
+  justify-content: space-between;
+  align-items: start;
+}
+
+@mixin around_center {
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin end_center {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin begin_center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin center_center {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin center_stretch {
+  justify-content: center;
+  align-items: stretch;
+}
+
+@mixin middle {
+  display: block;
+  margin: 0 auto;
+}
+
+@mixin innerSpace {
+  margin: $primary-size1 0;
+}
+
+@mixin standPadd {
+  padding: $primary-size1;
+}
+
+@mixin link_design {
+  font-family: "Boho-Lifestyle";
+  font-size: 3rem;
+  color: #193E5F;
+}

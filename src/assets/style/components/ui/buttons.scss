@@ -1,0 +1,124 @@
+/* *** LAYOUT *** */
+
+/* *** MODULE *** */
+.navLi_8__button--primary,
+.dntns__button--primary,
+.nsLi_1__link--button-secundary,
+.navLi_7__link--button-secundary,
+.eLi_3__link--button-secundary,
+.eLi_4__link--button-secundary,
+.nsArt_1__link--button-secundary,
+.schdl__Art__link--button-secundary,
+.abt__Art__link--button-secundary {
+  position: relative;
+
+  padding: 16px 23px;
+
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 23px;
+
+  @include link_design;
+  text-decoration: none;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.navLi_8__button--primary,
+.dntns__button--primary {
+  border-color: $primary-color1;
+}
+
+.nsLi_1__link--button-secundary,
+.navLi_7__link--button-secundary,
+.eLi_3__link--button-secundary,
+.eLi_4__link--button-secundary,
+.nsArt_1__link--button-secundary,
+.schdl__Art__link--button-secundary,
+.abt__Art__link--button-secundary {
+  display: inline-block;
+
+  border-color: $secundairy-color2;
+
+  @include link_design;
+  text-decoration: none;
+
+  color: $secundairy-color2;
+
+  transition: background-color 300ms ease-in;
+}
+
+.navLi_8__button--primary::before,
+.dntns__button--primary::before,
+.nsLi_1__link--button-secundary::before,
+.navLi_7__link--button-secundary::before,
+.eLi_3__link--button-secundary::before,
+.eLi_4__link--button-secundary::before,
+.nsArt_1__link--button-secundary::before,
+.schdl__Art__link--button-secundary::before,
+.abt__Art__link--button-secundary::before {
+  content: "";
+
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  z-index: -1;
+
+  width: 100%;
+  height: calc(100% + 3px);
+
+  border-radius: 23px;
+
+  transition: background-color 300ms ease-in;
+}
+
+.navLi_8__button--primary::before,
+.dntns__button--primary::before {
+  background-color: $secundairy-color2;
+}
+
+.nsLi_1__link--button-secundary::before,
+.navLi_7__link--button-secundary::before,
+.eLi_3__link--button-secundary::before,
+.eLi_4__link--button-secundary::before,
+.nsArt_1__link--button-secundary::before,
+.schdl__Art__link--button-secundary::before,
+.abt__Art__link--button-secundary::before {
+  background-color: $primary-color2;
+}
+
+/* *** STATE *** */
+.navLi_8__button--primary:hover::before,
+.dntns__button--primary:hover::before,
+.nsLi_1__link--button-secundary:hover,
+.navLi_7__link--button-secundary:hover,
+.eLi_3__link--button-secundary:hover,
+.eLi_4__link--button-secundary:hover,
+.nsArt_1__link--button-secundary:hover,
+.schdl__Art__link--button-secundary:hover,
+.abt__Art__link--button-secundary:hover {
+  background-color: $secundairy-color3;
+}
+
+.navLi_8__button--primary:hover,
+.navLi_8__button--primary:active,
+.dntns__button--primary:hover,
+.dntns__button--primary:active {
+  outline: 0;
+}
+
+.navLi_8__button--primary:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* *** KEYFRAME *** */
+
+/* *** MEDIAQUERY *** */
+@media (min-width: 768px) {
+  .navLi_8__button--primary {
+    padding: 16px 32px;
+  }
+}

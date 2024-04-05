@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap";
+
+// Setup
+@import "../supplies/variables.scss";
+@import "../setup/reset.scss";
+@import "../setup/base.scss";
+
+// common
+@import "../components/common/header/header.scss";
+@import "../components/common/footer/footer.scss";
+@import "../containers/main/main.scss";
+@import "../fonts/font.scss";
+
+// blocks
+@import "../components/common/blocks/navigation.scss";
+@import "../custom/components/blocks/blocks.scss";
+
+// elements
+@import "../custom/components/elements/elements.scss";
+
+// ui
+@import "../components/ui/buttons.scss";
+@import "../components/ui/inputs.scss";
+
+// container parts
+@import "../containers/containerParts/main/about.scss";
+@import "../containers/containerParts/main/classes.scss";
+@import "../containers/containerParts/main/donation.scss";
+@import "../containers/containerParts/main/schedule.scss";
+@import "../containers/containerParts/main/slideshow.scss";

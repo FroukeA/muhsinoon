@@ -1,0 +1,44 @@
+/* *** LAYOUT *** */
+.schdl__list {
+  @include row;
+  @include between_start;
+
+  text-align: center;
+}
+
+.schdl__Art_1__list {
+  @include row;
+  @include between_center;
+
+  text-align: center;
+}
+
+.schdl__Art {
+  @include column;
+  @include center_center;
+}
+
+/* *** MODULE *** */
+.schdlH3_1,
+.schdlH3_2 {
+  text-align: center;
+}
+
+.schdl__listItem--monthly {
+  max-width: 70vw;
+}
+
+.schdlL_1__listItem {
+  width: 31rem;
+}
+
+.schdlArt_1__img {
+  width: 100%;
+  height: auto;
+}
+
+/* *** STATE *** */
+
+/* *** KEYFRAME *** */
+
+/* *** MEDIAQUERY *** */
