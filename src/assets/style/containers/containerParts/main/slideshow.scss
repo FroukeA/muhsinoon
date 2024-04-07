@@ -1,7 +1,9 @@
 /* *** LAYOUT *** */
 .sldshw__list {
   @include row--noWrap;
-  @include between_center;
+  // @include between_center;
+
+  height: 80vh;
 
   overflow: scroll;
 }
@@ -24,15 +26,15 @@
 
 .sldshwL__listItem {
   min-width: 100vw;
-  height: 80vh;
+  height: inherit;
 
   z-index: 0;
 }
 
 .sldshwL__listItem--walk {
   position: relative;
-
   overflow: hidden;
+
   @include column;
   @include center_center;
 
@@ -68,12 +70,12 @@
 
 .nsLi_1__video {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  min-height: 100%;
-  z-index: -100;
+  // top: 0;
+  // left: 0;
+  // bottom: 0;
+  // min-height: 100%;
+
+  // z-index: -100;
 
   opacity: .9;
 }
@@ -89,11 +91,11 @@
 }
 
 .fL_1__listItem {
-  width: 42rem;
+  width: 37rem;
 }
 
 .fArt_1__img {
-  width: 20rem;
+  width: 15rem;
   height: auto;
 }
 
