@@ -1,7 +1,7 @@
 /* *** LAYOUT *** */
 .schdl__list {
   @include row;
-  @include between_start;
+  @include around_start;
 
   text-align: center;
 }

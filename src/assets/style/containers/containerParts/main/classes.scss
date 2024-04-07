@@ -8,7 +8,11 @@
 
 /* *** MODULE *** */
 .eventsL__listItem {
-  width: 30rem;
+  min-width: 40vw;
+}
+
+.eLi_1__article {
+  width: 100%;
 }
 
 .eArt_1__img {
@@ -21,3 +25,13 @@
 /* *** KEYFRAME *** */
 
 /* *** MEDIAQUERY *** */
+// ipad/ tablet
+@media (min-width: 924px) {
+  .eventsL__listItem {
+    min-width: 0rem;
+    width: 30rem;
+  }
+}
+
+// pc
+@media (min-width: 1124px) {}

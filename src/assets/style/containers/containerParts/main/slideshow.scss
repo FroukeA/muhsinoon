@@ -9,8 +9,10 @@
 }
 
 .fArt_1__list--fL_1 {
-  @include row;
-  @include between_center;
+  @include row--noWrap;
+  @include between_start;
+
+  overflow: scroll;
 
   text-align: center;
 }
@@ -38,28 +40,25 @@
   @include column;
   @include center_center;
 
-  @include standPadd;
-
   .nsLi_1__article {
     @include column;
     @include center_center;
 
     background-color: rgba($color: $secundairy-color5, $alpha: .39);
-    border-radius: 5rem;
 
-    @include standPadd
+    @include standPadd;
   }
 
   .nsHdr_1__text {
+    text-align: center;
+
     color: $primary-color2;
 
-    font-size: 9.3rem;
+    font-size: 5.3rem;
     font-weight: bolder;
   }
 
   .nsArt_1__text {
-    width: 50%;
-
     margin: 2rem 0;
 
     color: $primary-color2;
@@ -91,7 +90,7 @@
 }
 
 .fL_1__listItem {
-  width: 37rem;
+  min-width: 27rem;
 }
 
 .fArt_1__img {
@@ -104,3 +103,39 @@
 /* *** KEYFRAME *** */
 
 /* *** MEDIAQUERY *** */
+// ipad/ tablet
+@media (min-width: 1024px) {
+  .sldshwL__listItem--walk {
+    @include standPadd;
+
+    .nsLi_1__article {
+      border-radius: 5rem;
+    }
+
+    .nsHdr_1__text {
+      font-size: 9.3rem;
+    }
+
+    .nsArt_1__text {
+      width: 50%;
+    }
+  }
+
+  .fArt_1__list--fL_1 {
+    @include row;
+    @include between_start;
+
+    text-align: center;
+  }
+
+  .fL_1__listItem {
+    width: 25rem;
+  }
+}
+
+// pc
+@media (min-width: 1124px) {
+  .fL_1__listItem {
+    width: 37rem;
+  }
+}

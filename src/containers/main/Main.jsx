@@ -98,7 +98,7 @@ export default function Main(props) {
                     </h4>
                   </header>
 
-                  <img className="schdlImg_2" src={yearSchedule} alt="our yearly schedule" width="500" height="600" />
+                  <img className="schdlImg_2" src={yearSchedule} alt="our yearly schedule" width="300" height="400" />
                 </article>
               </li>
             </ul>

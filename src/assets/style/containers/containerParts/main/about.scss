@@ -1,12 +1,16 @@
 /* *** LAYOUT *** */
 
 /* *** MODULE *** */
-.about {
-  background: right / contain no-repeat url("../../../../../assets/static/png/aboutVisual.png");
-}
 
 /* *** STATE *** */
 
 /* *** KEYFRAME *** */
 
 /* *** MEDIAQUERY *** */
+
+// pc
+@media (min-width: 1346px) {
+  .about {
+    background: right / contain no-repeat url("../../../../../assets/static/png/aboutVisual.png");
+  }
+}
