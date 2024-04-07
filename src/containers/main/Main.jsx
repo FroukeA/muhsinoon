@@ -111,6 +111,8 @@ export default function Main(props) {
               </h3>
             </header>
 
+            <p className="text">Please note that this group is created for actively homeschooling families and those strongly considering homeschooling. Another essential requirement for acceptance into the group is adherence to the beliefs of the Quran and Hadith. Please feel free to contact us if you have any questions.</p>
+
             <a className="schdl__Art__link schdl__Art__link--button-secundary" href="https://chat.whatsapp.com/LYxNDJnJeNYAmcmG2dNGLP" target="blank">Join Muhsinoon</a>
           </article>
 
@@ -126,7 +128,7 @@ export default function Main(props) {
 
           <article>
             <header>
-              <h3 className="tittle--bigger">
+              <h3 className="tittle--bigger tittle--middle">
                 Events &amp; classes
               </h3>
             </header>
@@ -183,7 +185,7 @@ export default function Main(props) {
             </header>
 
             <p className="text">
-              Our mission at Muhsinoon Homeschool group is to provide a nurturing educational environment rooted in Islamic teachings, where every aspect of learning is infused with the principles of Islam. We strive to empower families in fostering a deep connection with their faith and the world around them, guiding our students ( Children) to understand and appreciate the interconnectedness of all creation through the lens of Islamic beliefs and nature. Through this holistic approach, we aim to cultivate individuals who are not only knowledgeable in academic subjects but also spiritually grounded , confident, intellectually curious and socially conscious, equipped to make positive contributions to their communities and the world at large.
+              Our mission at Muhsinoon Homeschool group is to provide a nurturing educational environment rooted in Islamic teachings, where every aspect of learning is infused with the principles of Islam. We strive to empower families in fostering a deep connection with their faith and the world around them, guiding our students (Children) to understand and appreciate the interconnectedness of all creation through the lens of Islamic beliefs and nature. Through this holistic approach, we aim to cultivate individuals who are not only knowledgeable in academic subjects but also spiritually grounded , confident, intellectually curious and socially conscious, equipped to make positive contributions to their communities and the world at large.
             </p>
           </article>
 
@@ -219,12 +221,24 @@ export default function Main(props) {
             </p>
           </article>
 
+
+        </section>
+
+        <section className="section--main join" id="">
+          <header className="hide">
+            <h2>
+              join
+            </h2>
+          </header>
+
           <article className="abt__Art" id="abt__Art_2">
             <header className="abtHdr_4">
               <h3 className="abtH3_2">
                 Like what you read? InshAllah. Please join.
               </h3>
             </header>
+
+            <p className="text">Please note that this group is created for actively homeschooling families and those strongly considering homeschooling. Another essential requirement for acceptance into the group is adherence to the beliefs of the Quran and Hadith. Please feel free to contact us if you have any questions.</p>
 
             <a className="abt__Art__link abt__Art__link--button-secundary" href="https://chat.whatsapp.com/LYxNDJnJeNYAmcmG2dNGLP" target="blank">Join Muhsinoon</a>
           </article>

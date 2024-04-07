@@ -13,7 +13,7 @@ export default function Footer(props) {
       <footer className=''>
         <div className="container">
           <p>
-            &copy; all right reserved to Muhsinoon
+            &copy; all right reserved to Muhsinoon ~ "Home of the Little Muslim Seekers"
           </p>
         </div >
       </footer>
