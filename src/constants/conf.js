@@ -1,5 +1,10 @@
 import sldshwNsVideo from '../assets/images/video/1448735-hd_2048_1080_24fps.mp4';
-import breakSummerVisual from '../assets/static/jpg/breakSummer.jpg'
+
+//events
+import breakSpringVisual from '../assets/static/jpg/breakSpringVisual.jpg';
+import backSpringVisual from '../assets/static/jpg/backSpringVisual.jpg';
+import sewingW7Visual from '../assets/static/jpg/project/sewing/projectSewW7.jpg';
+import sewingW8Visual from '../assets/static/jpg/project/sewing/projectSewW8.jpg';
 
 // factsheets
 import rainFloodThunderVisual from '../assets/static/png/factsheet/rainFloodThunder.png';
@@ -12,9 +17,10 @@ import windVisual from '../assets/static/png/factsheet/wind.png';
 import winterPondVisual from '../assets/static/png/factsheet/winterPond.png';
 
 // mnths
-import januaryVisual from '../assets/static/jpg/months/january.jpg';
-import februaryVisual from '../assets/static/jpg/months/february.jpg';
-import marchVisual from '../assets/static/jpg/months/march.jpg';
+import januaryVisual from '../assets/static/jpg/months/januaryVisual.jpg';
+import februaryVisual from '../assets/static/jpg/months/februaryVisual.jpg';
+import marchVisual from '../assets/static/jpg/months/marchVisual.jpg';
+import mayVisual from '../assets/static/jpg/months/mayVisual.jpg';
 
 export const nav_items = {
   label: "Main nav list",
@@ -1695,7 +1701,7 @@ export const event_items = {
               data: [],
               function: null
             }, {
-              label: "we are on a break",
+              label: "we are on a break visual",
               link: "",
               target_blank: "",
               id: "eimg_1",
@@ -1703,7 +1709,7 @@ export const event_items = {
               type: "img",
               element: "img",
               class: [],
-              icon: breakSummerVisual,
+              icon: breakSpringVisual,
               parentId: "",
               dataParent: false,
               parts: [
@@ -1711,7 +1717,7 @@ export const event_items = {
               data: [],
               function: null
             }, {
-              label: "We are taken a little break from events, to fully prepare for the up coming. InshAllah, we will be back April 29th, see you then.",
+              label: "We are taken a little break from events, to fully prepare for the up coming. InshAllah, next class is April 29th, see you then.",
               link: "",
               target_blank: "",
               id: "eP_1",
@@ -1794,7 +1800,23 @@ export const event_items = {
               data: [],
               function: null
             }, {
-              label: "",
+              label: "we are back visual",
+              link: "",
+              target_blank: "",
+              id: "eimg_2",
+              ref: "eArt_1",
+              type: "img",
+              element: "img",
+              class: [],
+              icon: backSpringVisual,
+              parentId: "",
+              dataParent: false,
+              parts: [
+              ],
+              data: [],
+              function: null
+            }, {
+              label: "Alhamdulilah, we rested and prepared for a new season of lessons, events & classes. InshAllah see you in tomorrow's class.",
               link: "",
               target_blank: "",
               id: "eP_2",
@@ -1876,7 +1898,23 @@ export const event_items = {
             data: [],
             function: null
           }, {
-            label: "week 7/8:'seeds'-'trunk'; art, draw & measure, 'crown & fruits'; extra's.",
+            label: "sewing week 7 visual",
+            link: "",
+            target_blank: "",
+            id: "eimg_3",
+            ref: "eArt_1",
+            type: "img",
+            element: "img",
+            class: [],
+            icon: sewingW7Visual,
+            parentId: "",
+            dataParent: false,
+            parts: [
+            ],
+            data: [],
+            function: null
+          }, {
+            label: "week 7/8:'seeds'-'trunk'; art, draw & measure, 'crown & fruits'; extra's & work further where we left.",
             link: "",
             target_blank: "",
             id: "eP_3",
@@ -1988,7 +2026,23 @@ export const event_items = {
               data: [],
               function: null
             }, {
-              label: " week 8/8: 'seeds'-'trunk'; projects, 'crown & fruits'; finishing. InshAllah, Next project: June 10th.",
+              label: "sewing week visual",
+              link: "",
+              target_blank: "",
+              id: "eimg_4",
+              ref: "eArt_1",
+              type: "img",
+              element: "img",
+              class: [],
+              icon: sewingW8Visual,
+              parentId: "",
+              dataParent: false,
+              parts: [
+              ],
+              data: [],
+              function: null
+            }, {
+              label: "week 8/8: 'seeds'-'trunk'; projects, 'crown & fruits'; finishing. InshAllah, Next project: June 10th.",
               link: "",
               target_blank: "",
               id: "eP_4",
@@ -2060,6 +2114,204 @@ export const schedule_items = {
   dataParent: false,
   parts: [
     {
+      label: "schdl monthly item",
+      link: "",
+      target_blank: "",
+      id: "schdlLi_4",
+      ref: "schdlL_1",
+      type: "listItem",
+      element: "li",
+      class: [],
+      icon: "",
+      parentId: "",
+      dataParent: false,
+      parts: [
+        {
+          label: "May",
+          link: "",
+          target_blank: "blank",
+          id: "schdlA_4",
+          ref: "schdlLi_1",
+          type: "link",
+          element: "a",
+          class: [],
+          icon: "",
+          parentId: "",
+          dataParent: false,
+          parts: [
+            {
+              label: "schdl month",
+              link: "",
+              target_blank: "",
+              id: "schdlArt_4",
+              ref: "schdlA_4",
+              type: "article",
+              element: "article",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "schdl monthly header",
+                  link: "",
+                  target_blank: "",
+                  id: "schdlHdr_5",
+                  ref: "schdlArt_4",
+                  type: "header",
+                  element: "header",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [
+                    {
+                      label: "May",
+                      link: "",
+                      target_blank: "",
+                      id: "schdlh4_5",
+                      ref: "schdlHdr_5",
+                      type: "text",
+                      element: "h4",
+                      class: [],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [
+                      ],
+                      data: [],
+                      function: null
+                    }
+                  ],
+                  data: [],
+                  function: null
+                }, {
+                  label: "May visual",
+                  link: "",
+                  target_blank: "",
+                  id: "schdlimg_4",
+                  ref: "schdlArt_4",
+                  type: "img",
+                  element: "img",
+                  class: [],
+                  icon: mayVisual,
+                  parentId: "",
+                  dataParent: false,
+                  parts: [
+                  ],
+                  data: [],
+                  function: null
+                }
+              ],
+              data: [],
+              function: null
+            }],
+          data: [],
+          function: null
+        },
+      ],
+      data: [],
+      function: null
+    }, {
+      label: "schdl monthly item",
+      link: "",
+      target_blank: "",
+      id: "schdlLi_5",
+      ref: "schdlL_1",
+      type: "listItem",
+      element: "li",
+      class: [],
+      icon: "",
+      parentId: "",
+      dataParent: false,
+      parts: [
+        {
+          label: "April",
+          link: "",
+          target_blank: "blank",
+          id: "schdlA_5",
+          ref: "schdlLi_5",
+          type: "link",
+          element: "a",
+          class: [],
+          icon: "",
+          parentId: "",
+          dataParent: false,
+          parts: [
+            {
+              label: "schdl month",
+              link: "",
+              target_blank: "",
+              id: "schdlArt_5",
+              ref: "schdlA_5",
+              type: "article",
+              element: "article",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "schdl monthly header",
+                  link: "",
+                  target_blank: "",
+                  id: "schdlHdr_6",
+                  ref: "schdlArt_5",
+                  type: "header",
+                  element: "header",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [
+                    {
+                      label: "April",
+                      link: "",
+                      target_blank: "",
+                      id: "schdlh4_6",
+                      ref: "schdlHdr_6",
+                      type: "text",
+                      element: "h4",
+                      class: [],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [
+                      ],
+                      data: [],
+                      function: null
+                    }
+                  ],
+                  data: [],
+                  function: null
+                }, {
+                  label: "April visual",
+                  link: "",
+                  target_blank: "",
+                  id: "schdlimg_5",
+                  ref: "schdlArt_5",
+                  type: "img",
+                  element: "img",
+                  class: [],
+                  icon: mayVisual,
+                  parentId: "",
+                  dataParent: false,
+                  parts: [
+                  ],
+                  data: [],
+                  function: null
+                }
+              ],
+              data: [],
+              function: null
+            }],
+          data: [],
+          function: null
+        },
+      ],
+      data: [],
+      function: null
+    }, {
       label: "schdl monthly item",
       link: "",
       target_blank: "",
@@ -2215,7 +2467,7 @@ export const schedule_items = {
                       link: "",
                       target_blank: "",
                       id: "schdlh4_2",
-                      ref: "schdlHdr_2",
+                      ref: "schdlHdr_3",
                       type: "text",
                       element: "h4",
                       class: [],
@@ -2235,7 +2487,7 @@ export const schedule_items = {
                   link: "",
                   target_blank: "",
                   id: "schdlimg_2",
-                  ref: "schdlArt_1",
+                  ref: "schdlArt_2",
                   type: "img",
                   element: "img",
                   class: [],
@@ -2314,7 +2566,7 @@ export const schedule_items = {
                       link: "",
                       target_blank: "",
                       id: "schdlh4_3",
-                      ref: "schdlHdr_3",
+                      ref: "schdlHdr_4",
                       type: "text",
                       element: "h4",
                       class: [],
@@ -2334,7 +2586,7 @@ export const schedule_items = {
                   link: "",
                   target_blank: "",
                   id: "schdlimg_2",
-                  ref: "schdlArt_1",
+                  ref: "schdlArt_3",
                   type: "img",
                   element: "img",
                   class: [],

@@ -13,9 +13,10 @@
   text-align: center;
 }
 
-.schdl__Art {
+.schdl__Art_5 {
   @include column;
   @include center_center;
+  @include standPadd;
 }
 
 /* *** MODULE *** */
@@ -32,7 +33,7 @@
   width: 31rem;
 }
 
-.schdlArt_1__img {
+.schdlL_1__listItem img {
   width: 100%;
   height: auto;
 }

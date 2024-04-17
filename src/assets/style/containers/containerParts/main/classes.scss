@@ -8,7 +8,7 @@
 
 /* *** MODULE *** */
 .eventsL__listItem {
-  min-width: 40vw;
+  min-width: 63vw;
 }
 
 .eLi_1__article {
@@ -29,9 +29,14 @@
 @media (min-width: 924px) {
   .eventsL__listItem {
     min-width: 0rem;
-    width: 30rem;
+    width: 50rem;
   }
 }
 
 // pc
-@media (min-width: 1124px) {}
+@media (min-width: 1124px) {
+  .eventsL__listItem {
+    min-width: 0rem;
+    width: 30rem;
+  }
+}

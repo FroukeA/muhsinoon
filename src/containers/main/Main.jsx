@@ -1,6 +1,7 @@
 // data
 import React from "react";
-import yearSchedule from "../../assets/images/png/schedule/planned structure.png";
+// import yearSchedule from "../../assets/images/png/schedule/planned structure.png";
+
 // functions
 import { createClass } from "../../utils/data/dataStyling";
 
@@ -66,7 +67,7 @@ export default function Main(props) {
             </h2>
           </header>
 
-          <article className="schdl__Art_1" id="schdl__Art_1">
+          <article className="schdl__Art_3" id="schdl__Art_3">
             <header className="schdlHdr_1">
               <h3 className="schdlH3_1">
                 Take a look at past and upcoming fun.
@@ -75,7 +76,7 @@ export default function Main(props) {
 
             <ul className="schdl__list">
               <li className="schdl__listItem schdl__listItem--monthly">
-                <article className="schdl__Art_1">
+                <article className="schdl__Art_3">
                   <header className="schdlHdr_2">
                     <h4 className="tittle--bigger schdlH4_1">
                       monthly schedule
@@ -90,8 +91,8 @@ export default function Main(props) {
                 </article>
               </li>
 
-              <li className="schdl__listItem">
-                <article className="schdl__Art_2">
+              {/* <li className="schdl__listItem">
+                <article className="schdl__Art_4">
                   <header className="schdlHdr_3">
                     <h4 className="tittle--bigger  schdlH4_2">
                       yearly schedule
@@ -100,11 +101,11 @@ export default function Main(props) {
 
                   <img className="schdlImg_2" src={yearSchedule} alt="our yearly schedule" width="300" height="400" />
                 </article>
-              </li>
+              </li> */}
             </ul>
           </article>
 
-          <article className="schdl__Art" id="schdl__Art_2">
+          <article className="schdl__Art schdl__Art_5" id="schdl__Art_5">
             <header className="schdlHdr_4">
               <h3 className="schdlH3_2">
                 Like what you see? InshAllah. Please join.
