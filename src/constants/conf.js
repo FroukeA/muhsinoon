@@ -401,53 +401,54 @@ export const nav_items = {
       ],
       data: [],
       func: null
-    }, {
-      label: "Donate",
-      link: "",
-      target_blank: "",
-      id: "navLi_8",
-      ref: "navL_1",
-      type: "listItem",
-      element: "li",
-      class: [],
-      icon: "",
-      parentId: "",
-      dataParent: false,
-      parts: [
-        {
-          label: "Donate",
-          link: "#Donate",
-          target_blank: "",
-          id: "navButton_2",
-          ref: "navLi_8",
-          type: "button",
-          element: "button",
-          class: [
-            {
-              label: "primary",
-              link: "",
-              target_blank: "",
-              id: "c_3",
-              ref: "navLi_1",
-              type: "class",
-              element: "className",
-              icon: "",
-              parts: [],
-              data: [],
-              function: null
-            }
-          ],
-          icon: "",
-          parentId: "",
-          dataParent: false,
-          parts: [],
-          data: [],
-          function: null
-        }
-      ],
-      data: [],
-      func: null
-    }
+    },
+    // {
+    //   label: "Donate",
+    //   link: "",
+    //   target_blank: "",
+    //   id: "navLi_8",
+    //   ref: "navL_1",
+    //   type: "listItem",
+    //   element: "li",
+    //   class: [],
+    //   icon: "",
+    //   parentId: "",
+    //   dataParent: false,
+    //   parts: [
+    //     {
+    //       label: "Donate",
+    //       link: "#Donate",
+    //       target_blank: "",
+    //       id: "navButton_2",
+    //       ref: "navLi_8",
+    //       type: "button",
+    //       element: "button",
+    //       class: [
+    //         {
+    //           label: "primary",
+    //           link: "",
+    //           target_blank: "",
+    //           id: "c_3",
+    //           ref: "navLi_1",
+    //           type: "class",
+    //           element: "className",
+    //           icon: "",
+    //           parts: [],
+    //           data: [],
+    //           function: null
+    //         }
+    //       ],
+    //       icon: "",
+    //       parentId: "",
+    //       dataParent: false,
+    //       parts: [],
+    //       data: [],
+    //       function: null
+    //     }
+    //   ],
+    //   data: [],
+    //   func: null
+    // }
   ],
   data: [],
   func: null

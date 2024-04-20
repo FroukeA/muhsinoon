@@ -3,44 +3,44 @@ import React from "react";
 // import yearSchedule from "../../assets/images/png/schedule/planned structure.png";
 
 // functions
-import { createClass } from "../../utils/data/dataStyling";
+// import { createClass } from "../../utils/data/dataStyling";
 
 // style
 
 // components
 
 
-import Button from "../../components/ui/buttons/Button";
-const button = {
-  label: "Donate",
-  link: "#Donate",
-  target_blank: "",
-  id: "button_1",
-  ref: "dntns",
-  type: "button",
-  element: "button",
-  class: [
-    {
-      label: "primary",
-      link: "",
-      target_blank: "",
-      id: "c_3",
-      ref: "navLi_1",
-      type: "class",
-      element: "className",
-      icon: "",
-      parts: [],
-      data: [],
-      function: null
-    }
-  ],
-  icon: "",
-  parentId: "",
-  dataParent: false,
-  parts: [],
-  data: [],
-  function: null
-}
+// import Button from "../../components/ui/buttons/Button";
+// const button = {
+//   label: "Donate",
+//   link: "#Donate",
+//   target_blank: "",
+//   id: "button_1",
+//   ref: "dntns",
+//   type: "button",
+//   element: "button",
+//   class: [
+//     {
+//       label: "primary",
+//       link: "",
+//       target_blank: "",
+//       id: "c_3",
+//       ref: "navLi_1",
+//       type: "class",
+//       element: "className",
+//       icon: "",
+//       parts: [],
+//       data: [],
+//       function: null
+//     }
+//   ],
+//   icon: "",
+//   parentId: "",
+//   dataParent: false,
+//   parts: [],
+//   data: [],
+//   function: null
+// }
 
 export default function Main(props) {
   return (
@@ -159,16 +159,17 @@ export default function Main(props) {
             <p className="text">
               We are in the process of coordinating multiple events and classes, each necessitating: the purchase or availability of supplies, rental of spaces, payment of fees, and related expenses. To streamline our operations and ensure efficient organization, we aim to establish a dedicated group fund, along with a comprehensive material database. This fund and materials will empower us to efficiently cover the essential expenditures associated with our initiatives. Your generous support in this endeavor would be greatly valued.</p>
 
-            <p className="text">Jazakh Allah khairn</p>
+            <p className="text">Jazakum'Allah Khairan</p>
           </article>
 
-          <Button
+          {/* <Button
             key={2}
             class={createClass(button)}
             item={button}
             label={button.label}
             onClick={button.function}
-          />
+          /> */}
+          <a className="button dntns__button dntns__button--primary" href="mailto: muhsineen.lms@gmail.com"> Donate</a>
         </section>
 
         <section className="section--main about" id="abt">
