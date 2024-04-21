@@ -170,7 +170,7 @@ export default function Main(props) {
             label={button.label}
             onClick={button.function}
             /> */}
-            <a className="button dntns__button dntns__button--primary" href="mailto: muhsineen.lms@gmail.com"> Donate</a>
+            <a className="button dntns__button dntns__button--primary" href="mailto: muhsineen.lms@gmail.com?subject=Donations!&body=Asalam alaikum I would love to be contacted about donating following:"> Donate</a>
           </article>
 
         </section>
