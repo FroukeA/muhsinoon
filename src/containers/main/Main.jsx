@@ -159,17 +159,20 @@ export default function Main(props) {
             <p className="text">
               We are in the process of coordinating multiple events and classes, each necessitating: the purchase or availability of supplies, rental of spaces, payment of fees, and related expenses. To streamline our operations and ensure efficient organization, we aim to establish a dedicated group fund, along with a comprehensive material database. This fund and materials will empower us to efficiently cover the essential expenditures associated with our initiatives. Your generous support in this endeavor would be greatly valued.</p>
 
-            <p className="text">Jazakum'Allah Khairan</p>
-          </article>
+            <p>InshAllah click following button and let's us know in the email that will open.</p>
 
-          {/* <Button
+            <p className="text">Jazakum'Allah Khairan</p>
+
+            {/* <Button
             key={2}
             class={createClass(button)}
             item={button}
             label={button.label}
             onClick={button.function}
-          /> */}
-          <a className="button dntns__button dntns__button--primary" href="mailto: muhsineen.lms@gmail.com"> Donate</a>
+            /> */}
+            <a className="button dntns__button dntns__button--primary" href="mailto: muhsineen.lms@gmail.com"> Donate</a>
+          </article>
+
         </section>
 
         <section className="section--main about" id="abt">
