@@ -1781,7 +1781,7 @@ export const event_items = {
               dataParent: false,
               parts: [
                 {
-                  label: "04/28 back for more fun",
+                  label: "05/06 back for more fun",
                   link: "",
                   target_blank: "",
                   id: "eH3_2",
@@ -1879,7 +1879,7 @@ export const event_items = {
             dataParent: false,
             parts: [
               {
-                label: "05/02 Project 'sewing'",
+                label: "05/09 Project 'sewing'",
                 link: "",
                 target_blank: "",
                 id: "eH3_3",
@@ -2007,7 +2007,7 @@ export const event_items = {
               dataParent: false,
               parts: [
                 {
-                  label: "05/09 Project 'sewing'",
+                  label: "05/16 Project 'sewing'",
                   link: "",
                   target_blank: "",
                   id: "eH3_4",
